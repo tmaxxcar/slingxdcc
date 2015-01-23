@@ -26,6 +26,8 @@ block body
                     a(href="downloads") Downloads
                 li
                     a(href="settings") Settings
+                li
+                    a(href="xdcc-websites") Websites
 
             form.navbar-form.navbar-right(ng-controller='SearchBarCtrl', role="search", ng-submit="setSearch()")
                 .right-inner-addon
@@ -55,6 +57,7 @@ block body
     script(src='js/controllers/downloads.js')
     script(src='js/controllers/packetcount.js')
     script(src='js/controllers/notificationcount.js')
+    script(src='js/controllers/xdcc-website.js')
     script(src='js/lib/ui-bootstrap-tpls-0.10.0.js')
     script(src='js/filters.js')
     script(src='js/directives.js')
